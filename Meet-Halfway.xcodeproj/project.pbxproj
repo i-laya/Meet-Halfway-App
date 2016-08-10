@@ -11,17 +11,32 @@
 		594F09851D4919AD0041AA57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594F09841D4919AD0041AA57 /* ViewController.swift */; };
 		594F09881D4919AE0041AA57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594F09861D4919AE0041AA57 /* Main.storyboard */; };
 		594F098A1D4919AE0041AA57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594F09891D4919AE0041AA57 /* Assets.xcassets */; };
-		594F098D1D4919AE0041AA57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594F098B1D4919AE0041AA57 /* LaunchScreen.storyboard */; };
+		594F099B1D4920450041AA57 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594F099A1D4920450041AA57 /* InputViewController.swift */; };
+		594F099D1D4920570041AA57 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594F099C1D4920570041AA57 /* MapViewController.swift */; };
+		5954B3791D553D9800A9970E /* SearchHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5954B3781D553D9800A9970E /* SearchHelper.swift */; };
+		5954B37B1D5905C700A9970E /* MidpointHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5954B37A1D5905C700A9970E /* MidpointHelper.swift */; };
+		5954B37D1D5A4E8400A9970E /* YelpHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5954B37C1D5A4E8400A9970E /* YelpHelper.swift */; };
+		59B698081D5001AC00067DDA /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B698071D5001AC00067DDA /* LocationSearchTable.swift */; };
+		A17871438C1842C4327A927D /* Pods_Meet_Halfway.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B86E2124E8E79D45AD11D23 /* Pods_Meet_Halfway.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		038372844A2559AA35D1D081 /* Pods-Meet-Halfway.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meet-Halfway.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Meet-Halfway/Pods-Meet-Halfway.debug.xcconfig"; sourceTree = "<group>"; };
 		594F097F1D4919AD0041AA57 /* Meet-Halfway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meet-Halfway.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		594F09821D4919AD0041AA57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		594F09841D4919AD0041AA57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		594F09871D4919AE0041AA57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		594F09891D4919AE0041AA57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		594F098C1D4919AE0041AA57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		594F098E1D4919AE0041AA57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594F099A1D4920450041AA57 /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		594F099C1D4920570041AA57 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5954B3781D553D9800A9970E /* SearchHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchHelper.swift; sourceTree = "<group>"; };
+		5954B37A1D5905C700A9970E /* MidpointHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidpointHelper.swift; sourceTree = "<group>"; };
+		5954B37C1D5A4E8400A9970E /* YelpHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpHelper.swift; sourceTree = "<group>"; };
+		5954B37E1D5A698600A9970E /* Meet-Halfway-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Meet-Halfway-Bridging-Header.h"; sourceTree = "<group>"; };
+		59B698071D5001AC00067DDA /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
+		66E605CB23CC8764F4C34D1A /* Pods-Meet-Halfway.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meet-Halfway.release.xcconfig"; path = "Pods/Target Support Files/Pods-Meet-Halfway/Pods-Meet-Halfway.release.xcconfig"; sourceTree = "<group>"; };
+		6B86E2124E8E79D45AD11D23 /* Pods_Meet_Halfway.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meet_Halfway.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A17871438C1842C4327A927D /* Pods_Meet_Halfway.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +56,8 @@
 			children = (
 				594F09811D4919AD0041AA57 /* Meet-Halfway */,
 				594F09801D4919AD0041AA57 /* Products */,
+				AF198AE5C875422C1EEA0AD7 /* Pods */,
+				C4605398BE5C11E04E6195FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +76,33 @@
 				594F09841D4919AD0041AA57 /* ViewController.swift */,
 				594F09861D4919AE0041AA57 /* Main.storyboard */,
 				594F09891D4919AE0041AA57 /* Assets.xcassets */,
-				594F098B1D4919AE0041AA57 /* LaunchScreen.storyboard */,
 				594F098E1D4919AE0041AA57 /* Info.plist */,
+				594F099A1D4920450041AA57 /* InputViewController.swift */,
+				594F099C1D4920570041AA57 /* MapViewController.swift */,
+				59B698071D5001AC00067DDA /* LocationSearchTable.swift */,
+				5954B3781D553D9800A9970E /* SearchHelper.swift */,
+				5954B37A1D5905C700A9970E /* MidpointHelper.swift */,
+				5954B37C1D5A4E8400A9970E /* YelpHelper.swift */,
+				5954B37E1D5A698600A9970E /* Meet-Halfway-Bridging-Header.h */,
 			);
 			path = "Meet-Halfway";
+			sourceTree = "<group>";
+		};
+		AF198AE5C875422C1EEA0AD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				038372844A2559AA35D1D081 /* Pods-Meet-Halfway.debug.xcconfig */,
+				66E605CB23CC8764F4C34D1A /* Pods-Meet-Halfway.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4605398BE5C11E04E6195FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B86E2124E8E79D45AD11D23 /* Pods_Meet_Halfway.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 594F09911D4919AE0041AA57 /* Build configuration list for PBXNativeTarget "Meet-Halfway" */;
 			buildPhases = (
+				4B98F2B4F3CC52D1381D82FB /* [CP] Check Pods Manifest.lock */,
 				594F097B1D4919AD0041AA57 /* Sources */,
 				594F097C1D4919AD0041AA57 /* Frameworks */,
 				594F097D1D4919AD0041AA57 /* Resources */,
+				D7D9C3231D94CD9B9FF546FF /* [CP] Embed Pods Frameworks */,
+				711335848567DD0B20B6C0BC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +140,7 @@
 				TargetAttributes = {
 					594F097E1D4919AD0041AA57 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7T2AC77UN5;
 					};
 				};
 			};
@@ -122,7 +167,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				594F098D1D4919AE0041AA57 /* LaunchScreen.storyboard in Resources */,
 				594F098A1D4919AE0041AA57 /* Assets.xcassets in Resources */,
 				594F09881D4919AE0041AA57 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +174,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B98F2B4F3CC52D1381D82FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		711335848567DD0B20B6C0BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meet-Halfway/Pods-Meet-Halfway-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7D9C3231D94CD9B9FF546FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meet-Halfway/Pods-Meet-Halfway-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		594F097B1D4919AD0041AA57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594F099B1D4920450041AA57 /* InputViewController.swift in Sources */,
+				59B698081D5001AC00067DDA /* LocationSearchTable.swift in Sources */,
 				594F09851D4919AD0041AA57 /* ViewController.swift in Sources */,
+				5954B3791D553D9800A9970E /* SearchHelper.swift in Sources */,
 				594F09831D4919AD0041AA57 /* AppDelegate.swift in Sources */,
+				5954B37D1D5A4E8400A9970E /* YelpHelper.swift in Sources */,
+				5954B37B1D5905C700A9970E /* MidpointHelper.swift in Sources */,
+				594F099D1D4920570041AA57 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,14 +247,6 @@
 				594F09871D4919AE0041AA57 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		594F098B1D4919AE0041AA57 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				594F098C1D4919AE0041AA57 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -247,23 +337,36 @@
 		};
 		594F09921D4919AE0041AA57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 038372844A2559AA35D1D081 /* Pods-Meet-Halfway.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Meet-Halfway/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Meet-Halfway";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Meet-Halfway/Meet-Halfway-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		594F09931D4919AE0041AA57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E605CB23CC8764F4C34D1A /* Pods-Meet-Halfway.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Meet-Halfway/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Meet-Halfway";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Meet-Halfway/Meet-Halfway-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -286,6 +389,7 @@
 				594F09931D4919AE0041AA57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
